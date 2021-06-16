@@ -8,7 +8,7 @@ const app = express();
 const router = express.Router();
 //conecta ao banco
 mongoose.connect(
-  "mongodb+srv://99715332:99715332@cluster0.aj0kf.mongodb.net/test"
+  "mongodb+srv://<user>:<password>@cluster0.aj0kf.mongodb.net/test"
 );
 
 const Product = require("./models/product");
