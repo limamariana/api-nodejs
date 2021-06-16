@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 
 const app = express();
 const router = express.Router();
-// conecta ao banco
+//conecta ao banco
 mongoose.connect(
   "mongodb+srv://99715332:99715332@cluster0.aj0kf.mongodb.net/test"
 );
